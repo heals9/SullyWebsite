@@ -26,18 +26,26 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 18px;
+    font-size: 20px;
 }
 
 
 body{
     background-color: lightgrey;
-}
+
 
 
 .container{
     margin: 20px;
     max-width: 750px;
+    margin: auto;
+}
+
+.byline{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1px;
+
 }
 
 figure{
@@ -52,7 +60,9 @@ img{
 }
 
 figcaption {
-    margin-top: 10px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 h1 {text-align: center;
@@ -66,8 +76,8 @@ h2{
     
 
 h5{ 
-     font-size: 15px;
-    margin-top: 5px;
+     font-size: 18px;
+ 
 
 }
 
